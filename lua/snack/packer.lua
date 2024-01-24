@@ -22,6 +22,15 @@ return require('packer').startup(function(use)
     use('theprimeagen/harpoon')
     use("mbbill/undotree")
     use("tpope/vim-fugitive")
+    use("vim-airline/vim-airline")
+
+    use ({
+        'nvimdev/lspsaga.nvim',
+        after = 'nvim-lspconfig',
+        config = function()
+            require('lspsaga').setup({})
+        end,
+    })
 
     use {
         'VonHeikemen/lsp-zero.nvim',
@@ -45,4 +54,5 @@ return require('packer').startup(function(use)
             {'rafamadriz/friendly-snippets'},
         }
     }
-end)
+end
+)

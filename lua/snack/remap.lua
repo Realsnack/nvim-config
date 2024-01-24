@@ -15,3 +15,7 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 
 -- This is going to get me cancelled
 vim.keymap.set("i", "<C-c>", "<Esc>")
+
+vim.keymap.set("n", "<leader>qq", ":q<CR>")
+vim.keymap.set("n", "<leader>wq", ":wq<CR>")
+

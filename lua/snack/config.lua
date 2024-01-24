@@ -3,6 +3,7 @@ vim.cmd('filetype on')
 vim.cmd('filetype plugin on')
 vim.cmd('syntax on')
 vim.wo.relativenumber = true
+vim.wo.number = true
 vim.wo.cursorline = true
 --vim.wo.cursorcolumn = true
 vim.bo.shiftwidth = 4
@@ -23,3 +24,4 @@ vim.cmd('filetype indent on')
 vim.o.wildmenu = true
 vim.o.wildmode = 'list:longest'
 vim.o.wildignore = '*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx'
+vim.cmd('colorscheme tokyonight')
