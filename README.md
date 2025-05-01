@@ -3,11 +3,5 @@
 ## Installation
 
 1. Install Neovim
-2. Install packer.nvim
-3. Install plugins from lua/snack/packer.lua > :so > PackerSync
-
-
-### Important
-
-If nvim is not available, base config is converted for vim without plugins.
-
+2. Run install.sh
+3. Open nvim and everything should autosetup

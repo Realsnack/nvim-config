@@ -1,3 +1,4 @@
-require("snack.remap")
-require("snack.config")
 require("snack.set")
+require("snack.remap")
+require("snack.lazy")
+require("snack.config")
