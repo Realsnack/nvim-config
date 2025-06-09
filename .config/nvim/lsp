@@ -1,0 +1,185 @@
+
+🧰 C / C++
+🔹 clangd
+
+    Pros:
+
+        Fast and reliable with robust support for C and C++.
+
+        Offers features like go-to definition, find references, and code completion.
+
+        Widely adopted in the C/C++ community.
+
+    Cons:
+
+        May require additional configuration for complex projects.
+
+        Large codebases might experience slower performance.
+        reddit.com
+
+🔹 ccls
+
+    Pros:
+
+        Built on top of clangd, offering enhanced features like semantic highlighting and cross-references.
+
+        Supports multiple languages including C, C++, and Objective-C.
+
+    Cons:
+
+        Configuration can be more complex compared to clangd.
+
+        May have compatibility issues with certain build systems.
+        reddit.com+5giters.com+5github.com+5
+
+🔹 C#
+🔹 omnisharp-vim
+
+    Pros:
+
+        Provides comprehensive support for C# development.
+
+        Integrates well with .NET Core and Mono.
+
+    Cons:
+
+        Can be resource-intensive.
+
+        Occasional issues with asynchronous operations in Vim.
+        reddit.com
+
+🔹 Rust
+🔹 rust-analyzer
+
+    Pros:
+
+        Fast and feature-rich, offering inlay hints, code lenses, and more.
+
+        Active development and strong community support.
+
+    Cons:
+
+        May consume more memory compared to other LSPs.
+
+        Some features might be experimental.
+
+🔹 Python
+🔹 pyright
+
+    Pros:
+
+        Fast and lightweight with excellent type checking capabilities.
+
+        Developed by Microsoft, ensuring regular updates.
+
+    Cons:
+
+        Limited support for dynamic typing in Python.
+
+        May require additional configuration for complex projects.
+        reddit.com
+
+🔹 pylsp (python-lsp-server)
+
+    Pros:
+
+        Highly extensible with support for various plugins.
+
+        Good integration with tools like black and flake8.
+
+    Cons:
+
+        Performance can be slower compared to pyright.
+
+        Some features might require additional setup.
+        reddit.com
+
+🔹 Go
+🔹 gopls
+
+    Pros:
+
+        Official Go language server with robust support for Go modules.
+
+        Regularly updated and maintained by the Go team.
+
+    Cons:
+
+        Some features might be experimental.
+
+        Configuration can be complex for large projects.
+
+🔹 JavaScript / TypeScript
+🔹 typescript-language-server
+
+    Pros:
+
+        Provides comprehensive support for both JavaScript and TypeScript.
+
+        Integrates well with tools like eslint and prettier.
+
+    Cons:
+
+        Can be resource-intensive for large codebases.
+
+        May require additional configuration for optimal performance.
+
+🔹 HTML
+🔹 html-languageserver
+
+    Pros:
+
+        Offers features like autocompletion, validation, and formatting.
+
+        Supports modern HTML standards and frameworks.
+
+    Cons:
+
+        Limited support for complex templating engines.
+
+        Performance can degrade with large files.
+
+🔹 SQL
+🔹 sqls
+
+    Pros:
+
+        Lightweight and fast with support for multiple SQL dialects.
+
+        Provides features like autocompletion and linting.
+
+    Cons:
+
+        Limited support for advanced SQL features.
+
+        May require additional configuration for complex queries.
+
+🔹 Bash
+🔹 bash-language-server
+
+    Pros:
+
+        Provides features like syntax highlighting, autocompletion, and linting.
+
+        Supports various shell scripting standards.
+
+    Cons:
+
+        Limited support for advanced shell scripting features.
+
+        Performance can degrade with large scripts.
+
+🔹 Java
+🔹 eclipse.jdt.ls
+
+    Pros:
+
+        Comprehensive support for Java development.
+
+        Integrates well with Maven and Gradle.
+
+    Cons:
+
+        Can be resource-intensive.
+
+        Configuration can be complex for large projects.
